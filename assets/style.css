@@ -1,0 +1,13 @@
+/* ===== GOOGLE FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap');
+
+/* ===== GLOBAL ===== */
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* ===== TÍTULOS ===== */
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
