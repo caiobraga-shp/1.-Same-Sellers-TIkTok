@@ -10,8 +10,8 @@ st.write("""Em caso de dúvidas, entre em contato com: 📧 **caio.braga@shopee.
 )
 st.write("(*) Campo Obrigatório")
 
-ARQUIVO_EXCEL = r"data\rms_table.xlsx"
-FORM_ENTRIES = r'data\form_entries.xlsx'
+ARQUIVO_EXCEL = "data/rms_table.xlsx"
+FORM_ENTRIES = 'data/form_entries.xlsx'
 
 # ---------- Funções auxiliares ----------
 def get_hostname():
@@ -24,7 +24,7 @@ def get_client_ip():
         return "IP não disponível"
 
 # ---------- Base de referência ----------
-df = pd.read_excel(r'data\rms_table.xlsx')
+df = pd.read_excel('data/rms_table.xlsx')
 PLACEHOLDER = 'Selecione'
 
 # ---------- Campos dinâmicos ----------
